@@ -1,10 +1,9 @@
-import { App } from "vue";
+import type { App } from 'vue'
+
+import Button from './components/button.vue'
 
 function install(app: App) {
-  // for (const key in components) {
-  //   // @ts-expect-error
-  //   app.component(key, components[key]);
-  // }
+  app.component('XButton', Button)
 }
 
-export default { install };
+export default { install }

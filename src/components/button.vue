@@ -1,13 +1,13 @@
 <script setup lang="ts">
-interface Props {
+interface ButtonProps {
   msg: string
 }
 
-const props = defineProps<Props>()
+defineProps<ButtonProps>()
 </script>
 
 <template>
-  <div>
-    Hello {{ msg }}! <span class="icon-heart" style="color:tomato"></span>
-  </div>
+  <button>
+    <slot />
+  </button>
 </template>
