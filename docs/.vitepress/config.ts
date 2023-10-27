@@ -21,7 +21,7 @@ export default defineConfig({
   vite: {
     resolve: {
       alias: {
-        'my-lib': path.resolve(__dirname, '../../src'),
+        '@xtep/vue-amap': path.resolve(__dirname, '../../src'),
       },
       dedupe: ['vue'], // avoid error when using dependencies that also use Vue
     },

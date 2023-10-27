@@ -1,0 +1,12 @@
+amap-sug-result .auto-item {
+  background-color: #fff;
+  white-space: nowrap;
+  height: 32px;
+  line-height: 32px;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-size: 40px;
+  font-size: 13px;
+  overflow: hidden;
+  color: #404040;
+}

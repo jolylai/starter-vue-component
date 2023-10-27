@@ -28,7 +28,11 @@
   "peerDependencies": {
     "vue": "^3.3.4"
   },
+  "dependencies": {
+    "@amap/amap-jsapi-loader": "^1.0.1"
+  },
   "devDependencies": {
+    "@amap/amap-jsapi-types": "^0.0.13",
     "@antfu/eslint-config": "1.0.0-beta.29",
     "@types/node": "^20.8.9",
     "@vitejs/plugin-vue": "^4.4.0",
